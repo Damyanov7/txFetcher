@@ -1,0 +1,23 @@
+{
+  "name": "new-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/scripts/run-scripts.js && mocha src/tests/*",
+    "start": "node ./src/scripts/run-scripts.js && nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "rlp": "^3.0.0",
+    "web3": "^1.9.0"
+  }
+}
